@@ -3,7 +3,7 @@
 CAFFE_ROOT=../..
 
 $CAFFE_ROOT/build/tools/caffe train \
---gpu=0 \
+--gpu 1 2 3 \
 --solver=solver.prototxt \
 2>&1 | tee log.txt
 
