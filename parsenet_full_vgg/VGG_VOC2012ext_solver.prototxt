@@ -12,6 +12,6 @@ iter_size: 8
 max_iter: 20000
 weight_decay: 0.0005
 snapshot: 10000
-snapshot_prefix: "snaphots/VGG_VOC2012ext"
+snapshot_prefix: "snapshots/VGG_VOC2012ext"
 test_initialization: false
 debug_info: false
