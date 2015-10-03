@@ -6,7 +6,7 @@
 # fi
 ../../build/tools/caffe train \
 --solver="VGG_VOC2012ext_solver.prototxt" \
---weights="../../models/VGGNet/VGG_ILSVRC_16_layers_fc_reduced.caffemodel" \
+--weights="../../models/VGGNet/VGG_ILSVRC_16_layers_conv.caffemodel" \
 --gpu 0 2>&1 | tee ParseNet_context.log
 
 
